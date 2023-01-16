@@ -41,6 +41,8 @@ class HomePage extends StatelessWidget {
                     pokemons[index].name!,
                   ),
                 ),
+                 trailing: const Icon(Icons.keyboard_arrow_right_rounded),
+                 iconColor: const Color.fromARGB(255, 247, 182, 3),
               ),
             );
           },

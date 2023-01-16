@@ -15,7 +15,8 @@ class PokedexService {
       final List<Pokemon> pokemonList = pokemonListResponse.results!;
 
       return pokemonList;
-    } catch (e) {
+    } 
+    catch (e) {
       rethrow;
     }
   }
@@ -26,7 +27,8 @@ class PokedexService {
       final PokemonDetails pokemonDetails =
           PokemonDetails.fromJson(response.data);
       return pokemonDetails;
-    } catch (e) {
+    } 
+    catch (e) {
       rethrow;
     }
   }

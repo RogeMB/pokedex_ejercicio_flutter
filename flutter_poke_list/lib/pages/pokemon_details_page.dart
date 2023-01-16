@@ -18,7 +18,7 @@ class PokemonDetailsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[100],
+      backgroundColor: const Color.fromARGB(255, 255, 166, 0),
       appBar: AppBar(title: Text(_capitalizeString(name))),
       body: FutureBuilder(
         future: PokedexService().getPokemonDetails(name),
